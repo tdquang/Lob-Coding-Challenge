@@ -1,7 +1,7 @@
 Letter To Governor
 =====================
 
-A simple form that takes your address and message as an input and converts it into a letter to the governor in charge of your region.
+A simple form that takes your address and a message, finds the location information of the governor in charge of your region, and converts all that information into a PDF letter. 
 
 ### Usage
 
