@@ -1,14 +1,14 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "letter-to-governor",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Letter to Governor",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/tdquang/Lob-Coding-Challenge.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Quang Tran <dangquang2011@gmail.com> (http://github.com/tdquang)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    "url": "https://github.com/tdquang/Lob-Coding-Challenge/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "https://github.com/tdquang/Lob-Coding-Challenge",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -34,14 +34,21 @@
     "babel-preset-es2015": "^6.0.15",
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.23.1",
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
+    "file-loader": "0.9.0",
     "react-hot-loader": "^1.3.0",
-    "webpack": "^1.12.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.9.6",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "lob": "^3.9.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "request-promise": "^4.1.1"
   }
 }
